@@ -1,0 +1,9 @@
+<h1>Tarefa: {{retorno.title}}</h1>
+<div class="form-control">
+        <p><strong>Descrição:</strong> {{retorno.description}}</p>
+        {{#if retorno.done}}
+            <p><strong>Status:</strong> Tarefa realizada</p>
+        {{else}}
+            <p><strong>Status:</strong> Tarefa NÃO realizada</p>
+        {{/if}}
+</div>
